@@ -1,0 +1,27 @@
+
+
+.elizabeth__viewer{
+	top:0px;
+	left:0px;
+	position: absolute;
+	z-index:100;
+	width:100%;
+	height: 100%;
+	background:rgba(0,0,0,0.8);
+
+}
+
+.viewer__table{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.elizabeth__picture{
+	display: table-cell;
+	margin:0px auto;
+	vertical-align: middle;
+	width:75%;
+	height: auto;
+
+}
