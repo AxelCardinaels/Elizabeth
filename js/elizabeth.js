@@ -9,8 +9,8 @@
       event.preventDefault();
       var picture = this;
 
-      console.log(this.getAttribute("data-elizabeth-caption"));
-      body.append('<div class="elizabeth__viewer"><div class="viewer__table"><img class="elizabeth__picture" src="'+(this.href)+'"/></div></div>');
+      console.log();
+      body.append('<div class="elizabeth__viewer"><div class="viewer__container"><div class="viewer__table"><img class="elizabeth__picture" src="'+(this.href)+'"/><p class="elizabeth__caption">'+this.getAttribute("data-elizabeth-caption")+'</p></div></div></div>');
 
 
 

@@ -13,17 +13,20 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.8); }
 
-.viewer__table {
-  display: table;
+.viewer__container {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  display: table; }
+
+.viewer__table {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%; }
 
 .elizabeth__picture {
-  display: table-cell;
   margin: 0px auto;
-  vertical-align: middle;
-  width: 75%;
-  height: auto; }
+  width: 75%; }
 
 /**
  * #OBJECTS
